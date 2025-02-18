@@ -17,6 +17,7 @@ public class ApiResponse<T> {
     private T data;
     private Integer status;
 
+
     public static <T> ApiResponse<T> success(T data) {
         return ApiResponse.<T>builder()
                 .success(true)
