@@ -2,9 +2,9 @@ spring:
   application:
     name: chess-game
   datasource:
-    url: jdbc:postgresql://localhost:5432/chess_game
-    username: postgres
-    password: password
+    url: jdbc:postgresql://localhost:5432/mydatabase
+    username: admin
+    password: admin
   jpa:
     hibernate:
       ddl-auto: validate

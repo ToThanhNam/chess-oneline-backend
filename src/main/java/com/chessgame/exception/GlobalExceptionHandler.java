@@ -21,4 +21,4 @@ public class GlobalExceptionHandler {
                 .internalServerError()
                 .body(ApiResponse.error("Internal Server Error"));
     }
-} 
+}
