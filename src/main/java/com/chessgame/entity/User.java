@@ -29,8 +29,8 @@ public class User {
     private String avatarUrl;
 
     @Enumerated(EnumType.STRING)
-    @Column(name = "auth_provider")
-    private AuthProvider provider;
+    @Column(name = "auth_provider", nullable = false)
+    private AuthProvider authProvider;
 
     @Column(name = "provider_id")
     private String providerId;
